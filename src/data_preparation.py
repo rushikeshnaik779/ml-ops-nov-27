@@ -14,6 +14,22 @@ from sklearn.preprocessing import LabelEncoder
 
 
 def data_train_val_test_split(data):
+
+    """
+    data_train_val_test_split: 
+        spliting the data in train, test, val data.
+
+    Parameters: 
+    -----------
+        data : pandas dataframe
+
+    Returns: 
+    --------
+        train_df: pandas dataframe 
+        val_df: pandas dataframe
+        test_df: pandas dataframe
+
+    """
     data.dropna(subset=['RainToday', 'RainTomorrow'], inplace=True)
     year = pd.to_datetime(data.Date).dt.year
 
@@ -26,7 +42,24 @@ def data_train_val_test_split(data):
     return train_df, val_df, test_df
 
 def imputing_missing_value(train_df, val_df, test_df): 
+    """
+    imputing_missing_value: 
+        imputing missing value : SimpleImputer and LabelEncoder as imputer 
+        to replace the categorical variable and numerical variable replace with mean values 
 
+    Parameters 
+    -----------
+        train_df : pandas dataframe
+        val_df : pandas dataframe
+        test_df : pandas dataframe
+
+    Returns 
+    -------
+        train_df : pandas dataframe
+        val_df : pandas dataframe
+        test_df : pandas dataframe 
+    
+    """
     numeric_cols = train_df.select_dtypes(include=np.number).columns.tolist()
     categorical_cols = train_df.select_dtypes(include=object).columns.tolist()
 
@@ -57,6 +90,21 @@ def imputing_missing_value(train_df, val_df, test_df):
     
 
 def under_sample(train_df):
+    """
+    Data is imbalanced with 30 to  70 percent ratio. 
+    we wil be undersampling it. 
+    
+
+    Parameters: 
+    ----------
+        train_df : pandas dataframe 
+
+    
+    Returns: 
+    --------
+    X, y the sampled data 
+    
+    """
     undersample = NearMiss(version=1, n_neighbors=3)
 
     x = train_df.drop('RainTomorrow', axis=1)
