@@ -1,12 +1,12 @@
-from data_extraction import data_extraction
-from data_preparation import data_train_val_test_split, imputing_missing_value, under_sample
-from evaluation import metrics_cal, predict
-from model_training import train_model
-
+from src.data_extraction import data_extraction
+from src.data_preparation import data_train_val_test_split, imputing_missing_value, under_sample
+from src.evaluation import metrics_cal, predict
+from src.model_training import train_model
 
 if __name__ == "__main__": 
-    path = '../data/weatherAUS.csv'
+    path = 'data/weatherAUS.csv'
     data = data_extraction(path)
+    print(data.shape)
     train_df, val_df, test_df = data_train_val_test_split(data)
     
     train_df, val_df, test_df = imputing_missing_value(train_df, val_df, test_df)
