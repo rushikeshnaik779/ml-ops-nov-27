@@ -1,5 +1,7 @@
 import pandas as pd 
 import numpy as np 
 
-data = pd.read_csv('../data/weatherAUS.csv')
-print(data.head())
+
+def data_extraction(data_path): 
+    data = pd.read_csv(data_path)
+    return data
