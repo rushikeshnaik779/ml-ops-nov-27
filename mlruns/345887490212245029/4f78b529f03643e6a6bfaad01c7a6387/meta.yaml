@@ -1,0 +1,15 @@
+artifact_uri: file:///home/rushi/mlops/ml-ops-nov-27/mlruns/345887490212245029/4f78b529f03643e6a6bfaad01c7a6387/artifacts
+end_time: 1669996909378
+entry_point_name: ''
+experiment_id: '345887490212245029'
+lifecycle_stage: active
+run_id: 4f78b529f03643e6a6bfaad01c7a6387
+run_name: valuable-newt-444
+run_uuid: 4f78b529f03643e6a6bfaad01c7a6387
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1669996901821
+status: 3
+tags: []
+user_id: root

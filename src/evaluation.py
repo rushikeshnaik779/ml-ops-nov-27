@@ -37,4 +37,4 @@ def metrics_cal(actuals, predicted):
     metrics['auc'] = roc_auc_score(actuals, predicted)
     metrics['accuracy'] = accuracy_score(actuals, predicted)
 
-    return metrics
+    return metrics['auc'], metrics['accuracy']

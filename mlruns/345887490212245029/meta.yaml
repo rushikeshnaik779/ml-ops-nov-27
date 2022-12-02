@@ -1,0 +1,6 @@
+artifact_location: file:///home/rushi/mlops/ml-ops-nov-27/mlruns/345887490212245029
+creation_time: 1669996821603
+experiment_id: '345887490212245029'
+last_update_time: 1669996821603
+lifecycle_stage: active
+name: ./artifacts
