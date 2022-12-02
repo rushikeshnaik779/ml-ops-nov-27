@@ -15,13 +15,13 @@ if __name__ == "__main__":
     train_df, val_df, test_df = data_train_val_test_split(data)
     
     train_df, val_df, test_df = imputing_missing_value(train_df, val_df, test_df)
-    
+    type_model = 'lr'
     x, y = under_sample(train_df)
     with mlflow.start_run(): 
         mlflow.log_param('Author', 'Rushikesh')
-        model = train_model(x, y, type_model='rf')
+        model = train_model(x, y, type_model=type_model)
 
-        mlflow.sklearn.log_model( model, 'rf')
+        mlflow.sklearn.log_model( model, type_model)
 
         test_pred = predict(model, test_df.drop(['RainTomorrow'], axis=1))
         val_pred = predict(model, val_df.drop(['RainTomorrow'], axis=1))
