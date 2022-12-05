@@ -20,7 +20,7 @@ if __name__ == "__main__":
     with mlflow.start_run(): 
         mlflow.log_param('Author', 'Rushikesh')
         model = train_model(x, y, type_model=type_model)
-
+        print(model)
         mlflow.sklearn.log_model( model, type_model)
 
         test_pred = predict(model, test_df.drop(['RainTomorrow'], axis=1))

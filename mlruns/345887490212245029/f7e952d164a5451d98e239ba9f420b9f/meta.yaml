@@ -1,0 +1,15 @@
+artifact_uri: file:///home/rushi/mlops/ml-ops-nov-27/mlruns/345887490212245029/f7e952d164a5451d98e239ba9f420b9f/artifacts
+end_time: 1670058411526
+entry_point_name: ''
+experiment_id: '345887490212245029'
+lifecycle_stage: active
+run_id: f7e952d164a5451d98e239ba9f420b9f
+run_name: monumental-shark-846
+run_uuid: f7e952d164a5451d98e239ba9f420b9f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1670058406840
+status: 3
+tags: []
+user_id: root

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/rushi/mlops/ml-ops-nov-27/mlruns/345887490212245029/2c50c20a9fba4d11b2e0f01e6e628e78/artifacts
+end_time: 1670049038128
+entry_point_name: ''
+experiment_id: '345887490212245029'
+lifecycle_stage: active
+run_id: 2c50c20a9fba4d11b2e0f01e6e628e78
+run_name: caring-kit-417
+run_uuid: 2c50c20a9fba4d11b2e0f01e6e628e78
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1670049034122
+status: 4
+tags: []
+user_id: rushikesh

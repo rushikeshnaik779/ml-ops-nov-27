@@ -1,0 +1,15 @@
+artifact_uri: file:///home/rushi/mlops/ml-ops-nov-27/mlruns/345887490212245029/49951935dd3e42e19d459d92d81bc38c/artifacts
+end_time: 1670255441506
+entry_point_name: ''
+experiment_id: '345887490212245029'
+lifecycle_stage: active
+run_id: 49951935dd3e42e19d459d92d81bc38c
+run_name: grandiose-roo-370
+run_uuid: 49951935dd3e42e19d459d92d81bc38c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1670255435014
+status: 3
+tags: []
+user_id: root

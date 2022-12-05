@@ -1,0 +1,15 @@
+artifact_uri: file:///home/rushi/mlops/ml-ops-nov-27/mlruns/345887490212245029/ea21326aa19f47ccaace275246de3e51/artifacts
+end_time: 1670255880223
+entry_point_name: ''
+experiment_id: '345887490212245029'
+lifecycle_stage: active
+run_id: ea21326aa19f47ccaace275246de3e51
+run_name: illustrious-tern-596
+run_uuid: ea21326aa19f47ccaace275246de3e51
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1670255875908
+status: 3
+tags: []
+user_id: root

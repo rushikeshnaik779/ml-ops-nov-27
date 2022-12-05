@@ -1,0 +1,15 @@
+artifact_uri: file:///home/rushi/mlops/ml-ops-nov-27/mlruns/345887490212245029/27970c44a33e44a2b55d149a2662424a/artifacts
+end_time: 1670060152972
+entry_point_name: ''
+experiment_id: '345887490212245029'
+lifecycle_stage: active
+run_id: 27970c44a33e44a2b55d149a2662424a
+run_name: suave-skunk-566
+run_uuid: 27970c44a33e44a2b55d149a2662424a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1670060146194
+status: 3
+tags: []
+user_id: root

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/rushi/mlops/ml-ops-nov-27/mlruns/345887490212245029/432b88faf1a74e97807771e5d41bc199/artifacts
+end_time: 1670255374033
+entry_point_name: ''
+experiment_id: '345887490212245029'
+lifecycle_stage: active
+run_id: 432b88faf1a74e97807771e5d41bc199
+run_name: puzzled-mouse-352
+run_uuid: 432b88faf1a74e97807771e5d41bc199
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1670255367123
+status: 4
+tags: []
+user_id: rushikesh

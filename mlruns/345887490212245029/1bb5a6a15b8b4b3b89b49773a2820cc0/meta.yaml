@@ -1,0 +1,15 @@
+artifact_uri: file:///home/rushi/mlops/ml-ops-nov-27/mlruns/345887490212245029/1bb5a6a15b8b4b3b89b49773a2820cc0/artifacts
+end_time: 1670255855388
+entry_point_name: ''
+experiment_id: '345887490212245029'
+lifecycle_stage: active
+run_id: 1bb5a6a15b8b4b3b89b49773a2820cc0
+run_name: classy-hare-241
+run_uuid: 1bb5a6a15b8b4b3b89b49773a2820cc0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1670255847011
+status: 3
+tags: []
+user_id: root
